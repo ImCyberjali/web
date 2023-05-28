@@ -1,0 +1,50 @@
+title: Zapiski Pentestera
+author: 
+description: 
+google_analytics:
+google_site_verification_content: 
+disqus_forum_shortname: 
+
+#Usernames and badges
+htb_badge_no:
+thm_badge_no:
+show_thm_htb_badges_in_nav: false
+github_username: Cyberjali
+gitlab:
+medium:
+stackoverflow:
+hacker_news:
+linkedin: jakub-lipiński
+twitch:
+youtube:
+twitter: 
+facebook:
+instagram:
+reddit:
+pinterest:
+telegram:
+steam:
+
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+exclude: [
+   /*/*/_problems/*,
+   scripts
+]
+plugins:
+   - jekyll-seo-tag
+   - jemoji
+   - jekyll-sitemap
+   - jekyll-github-metadata
+collections:
+   pages:
+      output: true
+      permalink: /:name
+   postępy:
+      output: true
+   rozwój:
+      output: true
+   JawlScanner:
+      output: true
